@@ -18,7 +18,7 @@ from tqdm import tqdm
 import robosuite
 import robocasa  # registers RoboCasa environments
 try:
-    import rby1.robot.kitchen_drawer  # noqa: F401  registers CloseDrawerLeft
+    import rby1_mobipi.robot.kitchen_drawer  # noqa: F401  registers CloseDrawerLeft
 except ImportError:
     pass
 import robomimic.utils.tensor_utils as TensorUtils
